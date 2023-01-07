@@ -2,28 +2,26 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="database" />
+		<Option title="ss" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/database" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/ss" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/database" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/ss" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,10 +32,24 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Alter.cpp" />
+		<Unit filename="Alter.h" />
 		<Unit filename="Create.cpp" />
 		<Unit filename="Create.h" />
-		<Unit filename="PrepareCommand.cpp" />
-		<Unit filename="PrepareCommand.h" />
+		<Unit filename="Delete.cpp" />
+		<Unit filename="Delete.h" />
+		<Unit filename="Drop.cpp" />
+		<Unit filename="Drop.h" />
+		<Unit filename="Helper.cpp" />
+		<Unit filename="Helper.h" />
+		<Unit filename="Insert.cpp" />
+		<Unit filename="Insert.h" />
+		<Unit filename="Select.cpp" />
+		<Unit filename="Select.h" />
+		<Unit filename="Show.cpp" />
+		<Unit filename="Show.h" />
+		<Unit filename="Update.cpp" />
+		<Unit filename="Update.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

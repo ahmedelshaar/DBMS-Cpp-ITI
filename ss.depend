@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1673031957 source:c:\users\user\desktop\ss\create.cpp
+	"Create.h"
+
+1673015155 c:\users\user\desktop\ss\create.h
+	<bits/stdc++.h>
+	"Helper.h"
+
+1673051177 c:\users\user\desktop\ss\helper.h
+	<bits/stdc++.h>
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<dirent.h>
+
+1673052214 source:c:\users\user\desktop\ss\helper.cpp
+	"Helper.h"
+
+1673053862 source:c:\users\user\desktop\ss\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Helper.h"
+	"Create.h"
+	"Show.h"
+	"Drop.h"
+	"Alter.h"
+	"Select.h"
+	"Insert.h"
+	"Update.h"
+	"Delete.h"
+
+1673027285 c:\users\user\desktop\ss\show.h
+	<bits/stdc++.h>
+	"Helper.h"
+
+1673010149 source:c:\users\user\desktop\ss\show.cpp
+	"Show.h"
+
+1673014131 source:c:\users\user\desktop\ss\drop.cpp
+	"Drop.h"
+
+1673011805 c:\users\user\desktop\ss\drop.h
+	<bits/stdc++.h>
+	"Helper.h"
+
+1673041757 source:c:\users\user\desktop\ss\alter.cpp
+	"Alter.h"
+
+1673026588 c:\users\user\desktop\ss\alter.h
+	<bits/stdc++.h>
+	<vector>
+	"Helper.h"
+
+1673049275 source:c:\users\user\desktop\ss\delete.cpp
+	"Delete.h"
+
+1673047318 c:\users\user\desktop\ss\delete.h
+	<bits/stdc++.h>
+	"Helper.h"
+
+1673050492 source:c:\users\user\desktop\ss\insert.cpp
+	"Insert.h"
+
+1673050455 c:\users\user\desktop\ss\insert.h
+	<bits/stdc++.h>
+	"Helper.h"
+
+1673051860 source:c:\users\user\desktop\ss\select.cpp
+	"Select.h"
+
+1673043521 c:\users\user\desktop\ss\select.h
+	<bits/stdc++.h>
+	"Helper.h"
+
+1673053848 source:c:\users\user\desktop\ss\update.cpp
+	"Update.h"
+
+1673052851 c:\users\user\desktop\ss\update.h
+	<bits/stdc++.h>
+	"Helper.h"
+
